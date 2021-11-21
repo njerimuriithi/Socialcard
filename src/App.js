@@ -1,14 +1,14 @@
 
 import './App.css';
-import Image from './Components/Image';
-import IconPage from './Components/IconPage';
+
+import Card from './Components/Card';
 
 function App() {
   return (
     <div className="App">
       <div className="bodyContent">
-      <Image/>
-     <IconPage/>
+      <Card/>
+     
 
       </div>
   

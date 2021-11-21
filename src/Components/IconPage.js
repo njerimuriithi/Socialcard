@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaRegThumbsUp,FaUsers,FaMailBulk,FaRegHeart} from "react-icons/fa";
+import { FaInstagram,FaTwitter,FaFacebook,FaLinkedin} from "react-icons/fa";
 import styles from './IconPage.module.css'
 import './IconPage.css'
 import {IconContext} from "react-icons"
@@ -7,15 +7,15 @@ import {IconContext} from "react-icons"
 function IconPage() {
     return (
         <IconContext.Provider 
-        value={{ color:'white',size:'20px', className:"iconItems"}} 
+        value={{ color:'black',size:'25px', className:"iconItems"}} 
         >
         <div  className={styles.icon}>
             
-            <FaRegThumbsUp/> 
+            <FaInstagram/> 
 
-            <FaMailBulk/> 
-            <FaRegHeart/> 
-            <FaUsers/>
+            <FaTwitter/> 
+            <FaFacebook/> 
+            <FaLinkedin/>
             
         </div>
         </IconContext.Provider>
