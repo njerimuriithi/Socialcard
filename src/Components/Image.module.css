@@ -1,0 +1,17 @@
+
+.imageStyle {
+   display: flex;
+   margin: auto;
+   padding-top: 30px;
+   background-color: white;
+   border-radius: 50%;
+    width: 20%;
+
+    
+}
+.textContext{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

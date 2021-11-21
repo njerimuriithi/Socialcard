@@ -1,0 +1,33 @@
+.buttonContents{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+
+        .btnGrad{
+            background-image: linear-gradient(to right, #a73737 0%, #7a2828  51%, #a73737  100%);
+        
+        }
+        .btnGrad{
+            margin: 8px;
+            padding: 10px 10px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 100% auto;
+            color: white;            
+            box-shadow: 0 0 10px #eee;
+            border-radius: 10px;
+            display: block;
+            font-size: 12px;
+            
+          }
+
+          .btnGrad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
