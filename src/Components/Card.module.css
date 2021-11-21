@@ -33,3 +33,13 @@
 .handle{
   text-align: center;
 }
+.qualifyText{
+  font-size: 20px;
+  font-family: cursive;
+  display: flex;
+  margin-left: 70px;
+
+}
+.qualify{
+  justify-content: space-evenly;
+}

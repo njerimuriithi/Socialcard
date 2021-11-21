@@ -20,8 +20,8 @@ function Card() {
 
                 <div className={styles.Container}>    
                  <BrandDescription 
-                   name="Melinda"/>
-                   <BrandDescription handle="@melindake"/>
+                   name="Melinda"
+                   handle="@melindake"/>
                    <IconPage/>
                    <BrandDescription 
                    description="Brand and communication, strategy,
